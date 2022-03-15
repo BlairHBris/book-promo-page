@@ -4,11 +4,11 @@
 body{
     font-family: 'Epilogue', sans-serif;
     background-image: linear-gradient(to right, hsl(321, 58%, 80%), hsl(21, 45%, 87%));
-
     margin: 0%;
     display: flex;
     align-items: center;
-    flex-flow: column nowrap;    
+    flex-flow: column nowrap;
+    line-height: 1.5em;   
 }
 
 header{
@@ -71,19 +71,23 @@ main{
     grid-row: 1 / span 1;
     margin-top: auto;
     margin-bottom: auto;
-    font-family: "Epilogue", italic;
+    font-family: "Epilogue";
 }
 
 .authorheader{
     grid-column: 1 / span 2;
     grid-row: 2 / span 1;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .author{
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
     text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .aboutauthor{
@@ -97,6 +101,8 @@ main{
     grid-column: 1 / span 2;
     grid-row: 4 / span 1;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .review1{
@@ -117,13 +123,16 @@ main{
     grid-column: 1 / span 2;
     grid-row: 6 / span 1;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .excerpt{
     grid-column: 1 / span 2;
     grid-row: 7 / span 1;
     text-align: center;
-       
+    margin-top: auto;
+    margin-bottom: auto;       
 }
 
 .storepages{
@@ -133,4 +142,6 @@ main{
     justify-content: space-between;
     display: flex;
     padding-bottom: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
 }
