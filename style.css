@@ -5,6 +5,7 @@ body{
     font-family: 'Epilogue', sans-serif;
     background-image: linear-gradient(to right, hsl(321, 58%, 80%), hsl(21, 45%, 87%));
     margin: 0%;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-flow: column nowrap;
