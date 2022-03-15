@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,300&display=swap');
 
 body{
     font-family: 'Epilogue', sans-serif;
+    background-image: linear-gradient(to right, hsl(321, 58%, 80%), hsl(21, 45%, 87%));
+
     margin: 0%;
     display: flex;
     align-items: center;
@@ -11,6 +14,11 @@ body{
 header{
     margin-top: 2em;
     margin-bottom: 2em;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    background-color: hsl(321, 58%, 70%);
 }
 
 h1,h2{
@@ -47,6 +55,8 @@ main{
 .bookpicture, .authorpicture{
     width: 13em;
     height: 17em;
+    border: 2px solid black;
+    filter: drop-shadow(-5px 5px 5px hsl(321, 65%, 39%));
 }
 
 .authorpicture{
@@ -58,6 +68,7 @@ main{
     grid-row: 1 / span 1;
     margin-top: auto;
     margin-bottom: auto;
+    font-family: "Epilogue", italic;
 }
 
 .authorheader{
@@ -109,6 +120,7 @@ main{
     grid-column: 1 / span 2;
     grid-row: 7 / span 1;
     text-align: center;
+    
 }
 
 .storepages{
