@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,300&display=swap');
+
+body{
+    font-family: 'Epilogue', sans-serif;
+    background-image: linear-gradient(to right, hsl(321, 58%, 80%), hsl(21, 45%, 87%));
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    line-height: 2em;   
+    font-size: 18px;
+}
+
+header{
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    background-color: hsl(321, 58%, 70%);
+}
+
+h1,h2, h3{
+        width: 100%;
+        text-align: center;
+        text-shadow: 2px 2px 4px #000000;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: .5em;
+    padding-top: .5em;
+}
+
+h2{
+    font-size: 1.75em;
+}
+
+h3{
+    font-size: 1.5em;
+    color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 61%;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.bookpicture, .authorpicture{
+    width: 13em;
+    height: 17em;
+    border: 2px solid black;
+    filter: drop-shadow(-5px 5px 5px hsl(321, 65%, 39%));
+}
+
+.bookcover,
+.author,
+.reviews,
+.excerpt,
+.storepages{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(21, 45%, 87%);
+    padding: 2em;
+    width: 100%;
+}
+
+.reviews,
+.excerpt{
+    text-align: center;
+}
+
+.flex-item{
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.authorheader,
+.reviewheader,
+.excerptheader,
+.storepagesheader,
+.blankheader{
+    display:flex;
+    justify-content: space-around;
+    background-color: hsl(321, 65%, 39%);
+    width: 100%;
+    padding: 2em;
+}
+
+.storebutton{
+    border: 2px solid black;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    background: hsl(321, 65%, 39%);
+}

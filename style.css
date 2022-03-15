@@ -21,7 +21,6 @@ strong {
 }
 
 header{
-    margin-top: 2em;
     margin-bottom: 2em;
     font-weight: bold;
     color: white;
@@ -39,6 +38,7 @@ h1,h2{
 h1{
     font-size: 2em;
     margin-bottom: .5em;
+    padding-top: .5em;
 }
 
 h2, h3{
@@ -47,6 +47,22 @@ h2, h3{
 
 h3{
     text-shadow: 2px 2px 4px whitesmoke;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 main{
