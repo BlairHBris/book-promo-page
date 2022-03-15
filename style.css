@@ -177,3 +177,40 @@ main{
     margin-top: auto;
     margin-bottom: auto;
 }
+
+@media (max-width: 700px) {
+    main,
+    .bookcover,
+    .bookpicture,
+    .authorpicture,
+    .booksummary,
+    .authorheader,
+    .author,
+    .aboutauthor,
+    .reviewheader,
+    .review1,
+    .review2,
+    .excerptheader,
+    .excerpt,
+    .storepages{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: .5em;
+        padding-right: .5em;
+        width: 90%;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    body{
+        background-color: hsl(321, 58%,88%);
+        background-image: none;
+    }
+    .storebutton{
+        display: block;
+        margin: 10px;
+    }
+    .bookpicture, .authorpicture{
+        border: none;
+    }
+}
