@@ -24,6 +24,7 @@ header{
 h1,h2{
         width: 100%;
         text-align: center;
+        text-shadow: 2px 2px 4px #000000;
 }
 
 h1{
@@ -33,6 +34,10 @@ h1{
 
 h2, h3{
     font-size: 1.75em;
+}
+
+h3{
+    text-shadow: 2px 2px 4px whitesmoke;
 }
 
 main{
@@ -53,6 +58,8 @@ main{
 .bookcover{
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .bookpicture, .authorpicture{
