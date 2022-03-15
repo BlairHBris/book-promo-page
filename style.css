@@ -12,6 +12,14 @@ body{
     line-height: 1.5em;   
 }
 
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: 900;
+}
+
 header{
     margin-top: 2em;
     margin-bottom: 2em;
