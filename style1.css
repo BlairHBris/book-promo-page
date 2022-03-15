@@ -21,6 +21,14 @@ header{
     background-color: hsl(321, 58%, 70%);
 }
 
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: 900;
+}
+
 h1,h2, h3{
         width: 100%;
         text-align: center;
