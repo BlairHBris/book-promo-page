@@ -8,8 +8,21 @@ body{
     flex-flow: column nowrap;    
 }
 
+header{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+h1,h2{
+        width: 100%;
+        text-align: center;
+}
+
 h1{
     font-size: 2em;
-    width: 100%;
-    text-align: center;
+    margin-bottom: .5em;
+}
+
+h2{
+    font-size: 1.75em;
 }
