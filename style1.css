@@ -125,3 +125,32 @@ main{
     color: white;
     background: hsl(321, 65%, 39%);
 }
+
+@media (max-width: 700px) {
+    main,
+    .bookcover,
+    .author,
+    .reviews,
+    .excerpt,
+    .storepages,
+    .authorheader,
+    .reviewheader,
+    .excerptheader,
+    .storepagesheader,
+    .blankheader{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: .5em;
+        padding-right: .5em;
+        width: 90%;
+    }
+    body{
+        background-color: hsl(321, 58%, 80%);
+        background-image: none;
+    }
+    .storebutton{
+        display: block;
+        margin: 10px;
+    }
+}
